@@ -1,4 +1,4 @@
-package com.testlib.testempty.android.testandroidlibrary
+package com.testlib.testempty.dexnettest.testandroidlibrary
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.testlib.testempty.android.testandroidlibrary
+package com.testlib.testempty.dexnettest.testandroidlibrary
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,8 +11,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.testlib.testempty.android.hellolib.HelloPrinter
-import com.testlib.testempty.android.testandroidlibrary.ui.theme.TestAndroidLibraryTheme
+import com.testlib.testempty.dexnettest.hellolib.HelloPrinter
+import com.testlib.testempty.dexnettest.testandroidlibrary.ui.theme.TestAndroidLibraryTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

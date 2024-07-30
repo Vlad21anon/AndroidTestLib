@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.testlib.testempty.android.hellolib"
+    namespace = "com.testlib.testempty.dexnettest.hellolib"
     compileSdk = 34
 
     defaultConfig {
@@ -58,8 +58,8 @@ afterEvaluate {
                 from(components["release"])
 
                 groupId = "com.github.Vlad21anon"
-                artifactId = "hellolib-testlib"
-                version = "1.7"
+                artifactId = "dexnettest-testlib"
+                version = "1.8"
             }
         }
     }

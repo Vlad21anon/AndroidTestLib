@@ -1,4 +1,4 @@
-package com.testlib.testempty.android.hellolib
+package com.testlib.testempty.dexnettest.testandroidlibrary
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.testlib.testempty.android.hellolib.test", appContext.packageName)
+        assertEquals("com.testlib.testempty.android.testandroidlibrary", appContext.packageName)
     }
 }

@@ -1,4 +1,4 @@
-package com.testlib.testempty.android.hellolib
+package com.testlib.testempty.dexnettest.hellolib
 
 import android.util.Log
 

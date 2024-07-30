@@ -1,4 +1,4 @@
-package com.testlib.testempty.android.testandroidlibrary.ui.theme
+package com.testlib.testempty.dexnettest.testandroidlibrary.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
