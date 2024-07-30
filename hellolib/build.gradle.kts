@@ -1,7 +1,7 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.jetbrains.kotlin.android)
-    id(`maven-publish`.toString())
+    id("maven-publish")
 }
 
 android {
@@ -25,8 +25,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_1_1
+        targetCompatibility = JavaVersion.VERSION_1_1
     }
     kotlinOptions {
         jvmTarget = "1.8"
@@ -41,4 +41,18 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("release") {
+                from(components["release"])
+
+                groupId = "com.github.Vlad21anon"
+                artifactId = "hellolib-testlib"
+                version = "1.0"
+            }
+        }
+    }
 }
