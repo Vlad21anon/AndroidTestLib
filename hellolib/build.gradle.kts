@@ -25,8 +25,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_1
-        targetCompatibility = JavaVersion.VERSION_1_1
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
     }
 
     publishing {
@@ -37,7 +37,7 @@ android {
     }
 
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = "11"
     }
 }
 
@@ -59,7 +59,7 @@ afterEvaluate {
 
                 groupId = "com.github.Vlad21anon"
                 artifactId = "hellolib-testlib"
-                version = "1.5"
+                version = "1.6"
             }
         }
     }
