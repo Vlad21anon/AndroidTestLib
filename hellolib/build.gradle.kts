@@ -51,7 +51,7 @@ afterEvaluate {
 
                 groupId = "com.github.Vlad21anon"
                 artifactId = "hellolib-testlib"
-                version = "1.0"
+                version = "1.4"
             }
         }
     }
